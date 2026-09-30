@@ -1,0 +1,6 @@
+bunnycdn_errors
+css
+fonts
+images
+img
+js

@@ -1,0 +1,27 @@
+body{
+    background-color: #DEE4F1;
+}
+span.toggle_menu {
+    background: #000000eb !important;
+    border-radius: 7px !important;
+    -webkit-border-radius: 7px !important;
+    -moz-border-radius: 7px !important;
+    -ms-border-radius: 7px !important;
+    -o-border-radius: 7px !important;
+}
+.BuildingImgGroup{
+    width: 80%;
+    max-width: 100%;
+    margin: 300px auto;
+    display: block;
+}
+.BuildingImgGroup h1{
+    text-transform: uppercase;
+}
+#Building .BuildingImgGroup .gallery-img, #Shrink .BuildingImgGroup .gallery-img{
+    width: 275px !important;
+    height: 200px !important;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}

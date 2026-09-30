@@ -1,0 +1,393 @@
+@media (max-width: 992px){
+.mobile_hidden{
+    display:none !important;
+}
+.intro_section .flexslider .container {
+    /* position: static; */
+    position:absolute;
+}
+.flexslider .slides img {
+    min-height: 60vh;
+    object-fit: cover;
+}
+}
+.media-body, .media-left, .media-right {
+    display: inline-block;
+}
+.sm-img{
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+}
+.proud-s{ 
+    margin-bottom: 30px;
+    padding-top: 50px !important; 
+}
+.proud-st{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.image_cover{
+    object-fit: contain;
+    background-position: 70% 90% !important;
+}
+
+.section-maps{
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+}
+.div-img{
+    margin: auto;
+}
+.section_404.background_cover {
+    background-image: url(https://leadhero.pro/assets/404.gif);
+}
+
+/* Alejandro */
+
+.page_copyright{
+    background-color: rgb(5, 5, 5);
+}
+
+.page_header{
+    background-color:white;
+}
+
+.leave-a-review{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.teaser{
+    border-radius: 20px;
+    padding: 20px;
+    height: 250px;
+}
+
+.small-teaser{
+    height: unset;
+}
+
+.media-left{
+    display: unset;
+}
+
+.teaser p{
+    font-weight: 600;
+    color: white;
+}
+
+/* .bg-rv{
+    background-image: url("../images/gallery/classa.jpg");
+    backdrop-filter: blur(.5rem) !important;
+}
+
+.bg-car{
+    background-image: url("../images/gallery/Cars.jpg");
+}
+
+.bg-boat{
+    background-image: url("../images/gallery/Boats.jpg");
+}
+
+.bg-year-round{
+    background-image: url("../images/gallery/IMG_2220.jpg");
+}
+.bg-heated{
+    background-image: url("../images/gallery/IMG_2227.jpg");
+}
+.bg-wrapping{
+    background-image: url("../images/gallery/Shrink\ Wrap1.jpg");
+} */
+
+.text-container, .image-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.text-container{
+    z-index: 2;
+    backdrop-filter: brightness(60%);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.teaser-img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.top-nav{
+    background-color: rgb(15, 15, 129);
+}
+
+.cr{
+    color: white;
+}
+
+.osc{
+    color: #DEE4FF ;
+}
+
+.white{
+    color: white !important;
+    border-color: white !important;
+}
+
+.black{
+    color: black !important;
+}
+
+.padding-ts{
+    padding-bottom: 70px;
+    padding-top:70px;
+}
+
+.boy-box{
+margin-bottom: 0 !important;
+
+}
+.color-white{
+    color: white !important;
+}
+
+.color-nav{
+    color: rgb(15, 15, 129);
+}
+
+/* Alejandro */
+
+footer{
+    background-color: #4c4747;
+}
+
+.form-group input, .form-group textarea{
+    background-color: white;
+}
+
+.services{
+    background-color: #dee4f1;
+    color: black;
+}
+
+.services h2{
+    color: black;
+}
+.services a{
+    color: white;
+}
+
+.top_logo{
+    width: 240px;
+}
+
+.header_left_logo .logo img {
+    max-width: unset;
+}
+
+.testimonials{
+    background-color: white;
+}
+.slider-img{
+    height: 700px;
+    object-fit: cover;
+}
+
+.h2slide{
+    font-size: 60px !important;
+}
+
+.pslide{
+    font-weight: 500;
+}
+
+.paddinp{
+    padding-right: 30px;
+}
+
+footer{
+    background-color: #2b2727;
+} 
+
+a.social-icon {
+    vertical-align: unset !important;
+    margin-top: 8px !important;
+}
+
+.flex-control-paging{
+    display: none;
+}
+
+.pricingbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dee4f1;
+    font-size: 25px;
+    padding: 60px 50px;
+    gap: 5px;
+    line-height: 30px;
+    
+    
+}
+
+.h2pricing{
+    color: black;
+    background-color: #dee4f1;
+    padding-top: 30px;
+    z-index: 5;
+
+}
+
+.contactform{
+    padding-left: 250px;
+}
+
+
+.theme_button:hover{
+    color:white;
+}
+
+.contactustitle{
+    font-size: 20px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    margin:auto;
+    justify-content: center;
+    /* padding:30px 90px; */
+    padding:30px 125px;
+}
+
+.gallery-img{
+    /* width: 250px !important;
+    height: 250px !important; */
+    width: 280px !important;
+    height: 300px !important;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.gallery-img img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery-img h1{
+    margin: 0;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.containercontact2{
+    display: flex;
+}
+
+.lightblue{
+    background-color:#dee4f1 ;
+}
+
+.pricingitem{
+    font-weight: 400;
+}
+
+.listnone{
+    list-style-type: none; 
+    
+}
+
+.terms-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.whitepat{
+    color: white;
+}
+.leave-a-review h2{
+    margin-bottom:0;
+}
+a.before_line{
+    position:relative;
+    padding-right:19px;
+}
+a.before_line:after{
+    position:absolute;
+    content:'|';
+    display: inline-block;
+    padding-right: 11px;
+    color: #818181;
+    right: -5px;
+    top: 6px;
+    line-height: 12px;
+}
+
+@media only screen and (max-width: 425px) {
+    .gallery-container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 10px;
+        margin:auto;
+        justify-content: center;
+        /* padding:30px 90px; */
+        padding:30px 10%;
+    }
+  }
+
+
+
+
+.image_hover {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.image_hover.mbot_38 {
+    margin-bottom: 38px;
+}
+.image_hover:after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .2);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-out;
+}
+.image_hover:hover:after {
+    opacity: .1
+}
+.zoom_img_effect {
+    position: relative;
+    transition: all .3s ease-out;
+}
+.image_hover:hover .zoom_img_effect {
+    -webkit-transform: scale(1.05) translateZ(0);
+    transform: scale(1.05) translateZ(0);
+}
+.image_hover:focus:after,
+.image_hover:hover:after {
+    opacity: 1;
+}
